@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Company": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "companyid": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+  ],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "company",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "users": {
+      "type": "hasMany",
+      "model": "user"
+    }    
+  },
+  "acls": [],
+  "methods": {}
+}

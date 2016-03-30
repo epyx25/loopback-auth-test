@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgre": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "auth-test",
+    "password": "afsdqr",
+    "name": "postgre",
+    "connector": "postgresql",
+    "user": "postgres"
+  }
+}
